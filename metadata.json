@@ -12,6 +12,8 @@
   ],
   "duration": 10,
   "prerequisites": [
+    "numpy-arange",
+    "numpy-reshape",
     "numpy-indexing",
     "numpy-selecting-every-item-from-dimension",
     "numpy-slicing",
