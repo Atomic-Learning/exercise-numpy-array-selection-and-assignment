@@ -10,7 +10,7 @@
     "python",
     "numpy"
   ],
-  "duration": 10,
+  "duration": 5,
   "prerequisites": [
     "numpy-arange",
     "numpy-reshape",
