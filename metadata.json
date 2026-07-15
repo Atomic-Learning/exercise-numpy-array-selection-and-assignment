@@ -12,12 +12,11 @@
   ],
   "duration": 10,
   "prerequisites": [
-    "numpy-selecting-items-from-an-array",
-    "numpy-selecting-a-single-index",
-    "numpy-every-index-in-a-dimension",
-    "numpy-everything-before-and-index",
-    "numpy-every-index-starting-from-a-value",
-    "numpy-item-assignment"
+    "numpy-indexing",
+    "numpy-selecting-every-item-from-dimension",
+    "numpy-slicing",
+    "numpy-assigning-multiple-items-with-scalar-values",
+    "numpy-assigning-multiple-items-with-array"
   ],
   "related": [
     "sample-solution-numpy-array-selection-and-assignment"
