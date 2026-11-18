@@ -18,3 +18,33 @@ start_array = np.arange(30).reshape([3, 5, 2])
 
 # Write your code here
 ```
+
+# Sample Solution
+
+Click below to see a sample solution.
+
+>[!HIDDEN]
+> Start by creating the source array and selecting the required 2-D slice.
+>
+> ```py-cell
+> import numpy as np
+>
+> start_array = np.arange(30).reshape([3, 5, 2])
+>
+> a = start_array[:2, 3:, 0]
+> print(a)
+> ```
+>
+> Now change the entry with indices `[1, 1]` to `4`.
+>
+> ```py-cell
+> a[1, 1] = 4
+> print(a)
+> ```
+>
+> Finally, update the values with index `0` in the first dimension so that they become `[1, 2]`.
+>
+> ```py-cell
+> a[0, :] = np.array([1, 2])
+> print(a)
+> ```

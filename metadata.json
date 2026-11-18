@@ -10,7 +10,7 @@
     "python",
     "numpy"
   ],
-  "duration": 5,
+  "duration": 7,
   "prerequisites": [
     "numpy-arange",
     "numpy-reshape",
@@ -21,7 +21,6 @@
     "numpy-assigning-multiple-items-with-array"
   ],
   "related": [
-    "sample-solution-numpy-array-selection-and-assignment"
   ],
   "python_packages": [
     "numpy"
